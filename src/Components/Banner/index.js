@@ -13,20 +13,20 @@ export default function Banner() {
                 <p className={styles.paragraph}>
                     Welcome to my blog! :)
                 </p>
-
-                <div className={styles.images}>
-                    <img 
-                        className={styles.coloredCircle}
-                        src={coloredCircle} 
-                        alt=''
-                        aria-hidden={true}
-                    />
-                    <img
-                        className={styles.myPhoto} 
-                        src={myPhoto}
-                        alt='myPhoto'
-                    />
-                </div>
+            </div>
+            
+            <div className={styles.images}>
+                <img 
+                    className={styles.coloredCircle}
+                    src={coloredCircle} 
+                    alt=''
+                    aria-hidden={true}
+                />
+                <img
+                    className={styles.myPhoto} 
+                    src={myPhoto}
+                    alt='myPhoto'
+                />
             </div>
         </div>
     )
